@@ -4,6 +4,8 @@ import { apiConnector } from "../apiconnector";
 import rzpLogo from "../../assets/Logo/rzp_logo.png"
 import { setPaymentLoading } from "../../slices/courseSlice";
 import { resetCart } from "../../slices/cartSlice";
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 const key1 = process.env.RAZORPAY_KEY;
 console.log("key1", key1);
@@ -56,6 +58,7 @@ export async function buyCourse(token, courses, userDetails, navigate, dispatch)
         const options = {
             //console.log("PRINTING orderResponse", orderResponse);
             key: "rzp_test_ZlssNz9Knv0944",
+            //key: process.env.RAZORPAY_KEY,
             currency: orderResponse.data.data.currency,
             amount: `${orderResponse.data.data.amount}`,
             order_id:orderResponse.data.data.id,
