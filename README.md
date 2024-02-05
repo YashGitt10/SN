@@ -8,7 +8,7 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 
 1. Clone the repository to your local machine.
     ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
+    git clone https://github.com/YashGitt10/SN.git
     ```
 
 1. Install the required packages.
@@ -25,6 +25,10 @@ This starter pack includes a basic setup for using **Tailwind CSS with React**. 
 1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
 
 The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+
+## Live Demo
+
+Explore the live demo of this starter pack: [Live Demo](https://sn-fend1-yashs-projects-532fd077.vercel.app/)
 
 ## Contributing
 
