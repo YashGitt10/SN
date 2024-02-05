@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://sn-fend1-yashs-projects-532fd077.vercel.app/",
+		origin:"*",
 		credentials:true,
 	})
 )
