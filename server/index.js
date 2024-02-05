@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://studynotion-frontend-nj3x.onrender.com/",
+		origin:"https://sn-fend1-yashs-projects-532fd077.vercel.app/",
 		credentials:true,
 	})
 )
